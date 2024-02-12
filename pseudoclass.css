@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:hover{
+    color: red;
+}
+
+
+
+input:read-only{
+    border: 2px solid rgb(64, 13, 205);
+    outline: none;
+}
+
+.caixa{                          
+
+    width: 100px;
+    height: 50px;
+    background-color: rgb(93, 93, 189);
+}
+
+.caixa:empty{
+    background-color: red;
+}
+
+li:nth-last-child(2){
+    color: aqua;
+
+}
+span:first-of-type{
+    color: blue;
+}
+.container :not(.excluido){
+    color: rgb(232, 20, 20);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
